@@ -1,0 +1,66 @@
+body{
+  background-image: linear-gradient(to right, rgb(169, 220, 235) , rgb(242, 242, 242));
+  font-family: 'Times New Roman', Times, serif;
+}
+
+/* login page */
+.header{
+  box-sizing: border-box;
+  border: 2px solid rgb(45, 45, 45);
+  margin: 200px;
+  margin-left:590px;
+  text-align: center;
+  height: 400px;
+  width:400px;
+  background-color: rgb(255, 255, 255);
+}
+
+.input{
+  border-radius: 34px;
+  margin: 10px;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+/* navbar */
+.navbar ul{
+  position:sticky;
+  overflow: hidden;
+  border: 4px solid rgb(84, 182, 197);
+  background-color: rgb(60, 151, 164);
+  border-radius: 64px;
+}
+.navbar li{
+  float:right;
+  list-style: none;
+}
+
+.l1{
+  position: relative;
+  right:92%;
+  font-weight: bolder;
+  font-size: 23px;
+  
+}
+
+.navbar li a{
+
+  position: relative;
+  margin-left: 50px;
+  color: rgb(166, 188, 196);
+  font-weight: bolder;
+  font-size: 20px;
+}
+.navbar li a:hover{
+  color:rgb(51, 52, 54);
+}
+
+.bar{
+  width:55%;
+  height:30px;
+  border-radius: 55px;
+  font-size: 20px;
+  justify-content: center;
+  margin-left:200px;
+}
